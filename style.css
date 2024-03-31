@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+   background-color: rgba(128, 128, 128, 0.681);
+    width: 20vw; 
+    height: 50vw;
+    font-family: 'fira sans', Arial, Helvetica, sans-serif;
+
+}
+.sidebar nav{
+    padding: 10px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding: 33px;
+
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: burlywood; */
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    margin: 144px auto;
+    /* background-color: rgba(255, 0, 98, 0.638); */
+    height: 40vh;
+    width: 70vw ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 60px;
+}
+.about{
+    font-size: 50px;
+}
+.id{
+    font-size: 40;
+    color: rgb(119, 95, 160);
+}
+.id1{
+    font-size: 30;
+    color: rgb(119, 95, 160);
+}
+.button{
+    margin-top: 40px;
+
+    
+
+}
+.button button{
+    padding: 9px 12px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 166, 255, 0.666);
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.devpic img{
+    height: 270px;
+    width: 270px;
+    border-radius: 120px;
+
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'fira sans', Arial, Helvetica, sans-serif;
+
+}
+.contactform h1{
+    color: rgba(46, 165, 42, 0.629);
+    /*text-align: center;*/
+
+}
+.contactform div{
+    padding: 10px 0;
+}
+.btn-btn-primary{
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.513);
+    background-color: rgba(0, 166, 255, 0.666);
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.projectitem h2{
+    margin: 10px;
+    font-size: 40;
+    color: rgb(119, 95, 160);
+
+}
+.das{
+    display: flex;
+    justify-content: 10px left;
+    flex-direction: column;
+    margin: 40px auto;
+
+
+}
+.pr1{
+    font-size: 20px;
+    padding: 5px;
+}
+.pr2{
+    font-size: 20px;
+    padding: 5px;
+}
+.pr3{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.pr4{
+    font-size: 20px;
+    padding: 5px;
+    
+}
